@@ -1,5 +1,4 @@
 **Here are some of files that may be of particular interest**:
-______________________________________________________________
 
 data/wild includes all wild encounter tables
 
@@ -12,9 +11,9 @@ data/moves/moves contains data on each move including type, base power, accuracy
 data/items/marts contains which items are sold at each mart
 
 data/pokemon/evos_attacks contains information on evolution and level-up learnsets
+______________________________
 
 **Shining Crystal Changelog**:
-______________________________
 
 All boss teams are updated, often with more challenging pokemon with stronger movesets.
 
