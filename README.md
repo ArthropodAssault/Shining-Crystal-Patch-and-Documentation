@@ -12,7 +12,7 @@ data/items/marts contains which items are sold at each mart
 
 data/pokemon/evos_attacks contains information on evolution and level-up learnsets
 
-The code is searcheable on Github. This allows you to see all the updates to the game including changes to moves, learnsets, base stats, etc. You must be signed in to a Github account to search code. Here is a search tip: in the code repository, two words will often be separated by an underscore. Ie: "Sunny Day" is often written as "Sunny_day" in the repository.
+The code is searcheable on Github. It contains all the updates to the game including changes to moves, learnsets, base stats, trainer parties, etc. You must be signed in to a Github account to search code. Here is a search tip: in the code repository, two words will often be separated by an underscore. Ie: "Sunny Day" is often written as "Sunny_day" in the repository.
 
 ______________________________
 
