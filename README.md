@@ -1,4 +1,5 @@
-****Here are some of files that may be of particular interest****:
+**Here are some of files that may be of particular interest**:
+______________________________________________________________
 
 data/wild includes all wild encounter tables
 
@@ -12,7 +13,8 @@ data/items/marts contains which items are sold at each mart
 
 data/pokemon/evos_attacks contains information on evolution and level-up learnsets
 
-**Shining Crystal Changelog**
+**Shining Crystal Changelog**:
+______________________________
 
 All boss teams are updated, often with more challenging pokemon with stronger movesets.
 
