@@ -1,4 +1,4 @@
-**Here are some of files that may be of particular interest**:
+****Here are some of files that may be of particular interest****:
 
 data/wild includes all wild encounter tables
 
