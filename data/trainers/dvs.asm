@@ -22,7 +22,7 @@ TrainerClassDVs:
 	dn 15, 15, 15, 15 ; MISTY
 	dn 15, 13, 15, 15 ; LT_SURGE
 	dn  9,  8,  8,  8 ; SCIENTIST
-	dn 14, 14, 15, 15 ; ERIKA
+	dn 14, 12, 15, 15 ; ERIKA
 	dn  9,  8,  8,  8 ; YOUNGSTER
 	dn  9,  8,  8,  8 ; SCHOOLBOY
 	dn  9,  8, 15, 15 ; BIRD_KEEPER
