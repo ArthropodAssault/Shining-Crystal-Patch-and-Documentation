@@ -1,6 +1,7 @@
 	object_const_def
 	const ECRUTEAKLUGIASPEECHHOUSE_GRAMPS
 	const ECRUTEAKLUGIASPEECHHOUSE_YOUNGSTER
+	const GOLDENRODPPSPEECHHOUSE_TRADEBACKNPC
 
 EcruteakLugiaSpeechHouse_MapScripts:
 	def_scene_scripts
@@ -12,6 +13,14 @@ EcruteakLugiaSpeechHouseGrampsScript:
 
 EcruteakLugiaSpeechHouseYoungsterScript:
 	jumptextfaceplayer EcruteakLugiaSpeechHouseYoungsterText
+
+TradebackNPCScript:
+	faceplayer
+	opentext
+	special TradebackNPC
+	waitbutton
+	closetext
+	end
 
 LugiaSpeechHouseRadio:
 	jumpstd Radio2Script
@@ -57,3 +66,4 @@ EcruteakLugiaSpeechHouse_MapEvents:
 	def_object_events
 	object_event  2,  3, SPRITE_GRAMPS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakLugiaSpeechHouseGrampsScript, -1
 	object_event  5,  4, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakLugiaSpeechHouseYoungsterScript, -1
+	object_event  4,  2, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TradebackNPCScript, -1

@@ -1,7 +1,6 @@
 	object_const_def
 	const GOLDENRODPPSPEECHHOUSE_FISHER
 	const GOLDENRODPPSPEECHHOUSE_LASS
-	const GOLDENRODPPSPEECHHOUSE_TRADEBACKNPC
 
 GoldenrodPPSpeechHouse_MapScripts:
 	def_scene_scripts
@@ -13,14 +12,6 @@ GoldenrodPPSpeechHouseFisherScript:
 
 GoldenrodPPSpeechHouseLassScript:
 	jumptextfaceplayer GoldenrodPPSpeechHouseLassText
-
-TradebackNPCScript:
-	faceplayer
-	opentext
-	special TradebackNPC
-	waitbutton
-	closetext
-	end
 
 GoldenrodPPSpeechHouseBookshelf2:
 	jumpstd DifficultBookshelfScript
