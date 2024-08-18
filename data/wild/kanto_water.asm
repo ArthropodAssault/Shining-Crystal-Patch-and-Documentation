@@ -102,16 +102,16 @@ KantoWaterWildMons:
 
 	def_water_wildmons ROUTE_26
 	db 6 percent ; encounter rate
-	db 44, VAPOREON
-	db 44, FERALIGATR
-	db 44, BLASTOISE
+	db 34, VAPOREON
+	db 34, FERALIGATR
+	db 34, BLASTOISE
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_27
 	db 6 percent ; encounter rate
-	db 44, FERALIGATR
-	db 44, SLOWKING
-	db 44, VAPOREON
+	db 34, FERALIGATR
+	db 34, SLOWKING
+	db 34, VAPOREON
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_28
