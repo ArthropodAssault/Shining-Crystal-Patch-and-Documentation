@@ -202,7 +202,7 @@ endr
 	and a
 	jr nz, .copywildmonDVs
 
-	ld b, $FF
+	ld b, $EF
 	ld c, $FF
 .initializeDVs
 	ld a, b
