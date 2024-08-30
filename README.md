@@ -36,7 +36,7 @@ Certain TMs previously only available in the post-game are now accessible earlie
 
 There are new TMs added.
 
-HMs are deleteable.
+HMs are deleteable without the move deleter akin to TMs. 
 
 All wild enocunter tables are updated. Trade, gift, and egg pokemon are also changed.
 
