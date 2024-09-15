@@ -202,8 +202,10 @@ endr
 	and a
 	jr nz, .copywildmonDVs
 
-	ld b, $EF
-	ld c, $FF
+	call Random
+	ld b, a
+	call Random
+	ld c, a
 .initializeDVs
 	ld a, b
 	ld [de], a
