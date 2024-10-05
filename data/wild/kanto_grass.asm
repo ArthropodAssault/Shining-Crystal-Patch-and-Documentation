@@ -38,8 +38,8 @@ KantoGrassWildMons:
 	db 59, SANDSLASH
 	db 61, PARASECT
 	db 63, GOLEM
-	db 66, BLISSEY
-	db 62, CLEFABLE
+	db 60, BLISSEY
+	db 65, MEW
 	; day
 	db 61, CROBAT
 	db 60, RHYHORN
@@ -139,7 +139,7 @@ KantoGrassWildMons:
 	db 37, URSARING
 	db 37, PILOSWINE
 	db 36, ELECTABUZZ
-	db 40, MEWTWO
+	db 40, STEELIX
 	end_grass_wildmons
 
 	def_grass_wildmons TOHJO_FALLS
@@ -186,8 +186,8 @@ KantoGrassWildMons:
 	db 63, FORRETRESS
 	db 54, BLASTOISE
 	db 61, BLASTOISE
-	db 62, EEVEE
-	db 65, EEVEE
+	db 62, SCIZOR
+	db 65, SCIZOR
 	; nite
 	db 65, HERACROSS
 	db 66, EXEGGUTOR
@@ -432,7 +432,7 @@ KantoGrassWildMons:
 	db 46, VAPOREON
 	db 47, FORRETRESS
 	db 45, DRAGONITE
-	db 45, TYRANITAR
+	db 50, ZAPDOS
 	; day
 	db 44, BLASTOISE
 	db 43, URSARING
@@ -440,7 +440,7 @@ KantoGrassWildMons:
 	db 46, TAUROS
 	db 47, STEELIX
 	db 45, HYPNO
-	db 45, JOLTEON
+	db 45, MAGNETON
 	; nite
 	db 44, VAPOREON
 	db 43, EXEGGUTOR
@@ -628,7 +628,7 @@ KantoGrassWildMons:
 	db 50, MACHAMP
 	db 52, STEELIX
 	db 50, AERODACTYL
-	db 49, AMPHAROS
+	db 55, ARTICUNO
 	; day
 	db 49, PILOSWINE
 	db 50, GRANBULL
@@ -650,21 +650,21 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_21
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 65, DRAGONITE
+	db 62, DRAGONITE
 	db 63, PRIMEAPE
 	db 64, AERODACTYL
 	db 64, SNORLAX
 	db 65, STEELIX
 	db 63, GLIGAR
-	db 64, GLIGAR
+	db 65, MOLTRES
 	; day
-	db 65, DRAGONITE
+	db 62, DRAGONITE
 	db 63, JUMPLUFF
 	db 64, KINGLER
 	db 64, SNORLAX
-	db 65, STEELIX
+	db 64, STEELIX
 	db 63, RHYDON
-	db 64, JOLTEON
+	db 61, SUNFLORA
 	; nite
 	db 65, TYRANITAR
 	db 63, AMPHAROS
@@ -728,7 +728,7 @@ KantoGrassWildMons:
 	db 46, SNORLAX
 	db 45, STEELIX
 	db 45, OMASTAR
-	db 45, AMPHAROS
+	db 50, MEWTWO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_25
@@ -796,10 +796,10 @@ KantoGrassWildMons:
 	db 33, SNORLAX
 	db 36, ONIX
 	db 34, RHYHORN
-	db 40, HO_OH
+	db 40, RHYDON
 	; day
 	db 34, DRAGONAIR
-	db 35, DRAGONAIR
+	db 35, SNORLAX
 	db 36, RHYHORN
 	db 33, SNORLAX
 	db 36, ONIX

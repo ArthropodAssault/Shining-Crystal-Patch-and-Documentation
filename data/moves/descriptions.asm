@@ -338,8 +338,8 @@ WhirlwindDescription:
 	next "& ends battle.@"
 
 FlyDescription:
-	db   "It will never"
-	next "miss.@"
+	db   "1st turn: Fly"
+	next "2nd turn: Attack@"
 
 BindDescription:
 	db   "Binds the target"

@@ -397,21 +397,21 @@ JohtoGrassWildMons:
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, DRATINI
-	db 6, DRATINI
-	db 6, DRATINI
-	db 6, DRATINI
-	db 6, DRATINI
-	db 6, DRATINI
-	db 10,DRATINI
+	db 6, SPINARAK
+	db 6, CHARMANDER
+	db 6, SPINARAK
+	db 6, CHARMANDER
+	db 5, HOUNDOUR
+	db 5, HOUNDOUR
+	db 5, DRATINI
 	; day
-	db 5, LARVITAR
-	db 5, LARVITAR
-	db 5, LARVITAR
-	db 5, LARVITAR
-	db 5, LARVITAR
-	db 5, LARVITAR
-	db 10,LARVITAR
+	db 5, HOUNDOUR
+	db 5, SPINARAK
+	db 5, HOUNDOUR
+	db 5, SPINARAK
+	db 5, CHARMANDER
+	db 5, CHARMANDER
+	db 10,CHARMANDER
 	; nite
 	db 5, UNOWN
 	db 5, UNOWN
@@ -707,24 +707,24 @@ JohtoGrassWildMons:
 	; morn
 	db 30, STARYU
 	db 29, SLOWPOKE
-	db 30, LAPRAS
-	db 28, LAPRAS
+	db 30, PILOSWINE
+	db 28, PILOSWINE
 	db 27, JYNX
 	db 28, JYNX
 	db 29, JYNX
 	; day
 	db 30, STARYU
 	db 29, SLOWPOKE
-	db 30, LAPRAS
-	db 28, LAPRAS
+	db 30, PILOSWINE
+	db 28, PILOSWINE
 	db 27, JYNX
 	db 28, JYNX
-	db 35, ARTICUNO
+	db 35, SLOWKING
 	; nite
 	db 30, STARYU
 	db 29, SLOWPOKE
-	db 30, LAPRAS
-	db 28, LAPRAS
+	db 30, PILOSWINE
+	db 28, PILOSWINE
 	db 27, JYNX
 	db 28, JYNX
 	db 29, JYNX
@@ -739,7 +739,7 @@ JohtoGrassWildMons:
 	db 28, TEDDIURSA
 	db 27, JYNX
 	db 28, JYNX
-	db 29, LAPRAS
+	db 29, PILOSWINE
 	; day
 	db 30, STARYU
 	db 29, SLOWPOKE
@@ -747,7 +747,7 @@ JohtoGrassWildMons:
 	db 28, TEDDIURSA
 	db 27, JYNX
 	db 28, JYNX
-	db 30, ARTICUNO
+	db 30, PILOSWINE
 	; nite
 	db 30, STARYU
 	db 29, SLOWPOKE
@@ -767,7 +767,7 @@ JohtoGrassWildMons:
 	db 28, TEDDIURSA
 	db 27, JYNX
 	db 28, JYNX
-	db 29, LAPRAS
+	db 29, PILOSWINE
 	; day
 	db 30, STARYU
 	db 29, SLOWPOKE
@@ -775,7 +775,7 @@ JohtoGrassWildMons:
 	db 28, DEWGONG
 	db 27, JYNX
 	db 28, JYNX
-	db 30, ARTICUNO
+	db 30, PILOSWINE
 	; nite
 	db 30, STARYU
 	db 29, SLOWPOKE
@@ -783,7 +783,7 @@ JohtoGrassWildMons:
 	db 28, JYNX
 	db 27, JYNX
 	db 28, JYNX
-	db 29, LAPRAS
+	db 29, PILOSWINE
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B2F_BLACKTHORN_SIDE
@@ -803,7 +803,7 @@ JohtoGrassWildMons:
 	db 28, SNEASEL
 	db 27, JYNX
 	db 28, JYNX
-	db 30, ARTICUNO
+	db 30, PILOSWINE
 	; nite
 	db 30, STARMIE
 	db 29, SLOWBRO
@@ -831,7 +831,7 @@ JohtoGrassWildMons:
 	db 28, SNEASEL
 	db 27, JYNX
 	db 28, JYNX
-	db 30, ARTICUNO
+	db 30, PILOSWINE
 	; nite
 	db 30, STARMIE
 	db 29, SLOWBRO
@@ -907,7 +907,7 @@ JohtoGrassWildMons:
 	db 25, SLOWPOKE
 	db 27, STARMIE
 	db 28, SLOWKING
-	db 30, MEW
+	db 30, KINGLER
 	; day
 	db 25, VAPOREON
 	db 26, STARMIE
@@ -1041,29 +1041,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
+	db 30, SEADRA
+	db 30, SEADRA
+	db 30, KINGLER
+	db 30, GOLDUCK
+	db 30, STARYU
+	db 30, GOLDUCK
+	db 30, STARMIE
 	; day
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
+	db 30, SEADRA
+	db 30, LANTURN
+	db 30, LANTURN
+	db 30, KINGLER
+	db 30, CLOYSTER
+	db 30, CLOYSTER
+	db 30, CLOYSTER
 	; nite
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
-	db 30, LUGIA
+	db 30, STARYU
+	db 30, SEADRA
+	db 30, STARYU
+	db 30, LANTURN
+	db 30, LANTURN
+	db 30, STARMIE
+	db 30, STARMIE
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ROOM_1
@@ -1083,7 +1083,7 @@ JohtoGrassWildMons:
 	db 75, TYRANITAR
 	db 75, DRAGONITE
 	db 70, CHARIZARD
-	db 80, MEW
+	db 80, CROBAT
 	; nite
 	db 70, SCIZOR
 	db 74, VAPOREON
@@ -1111,7 +1111,7 @@ JohtoGrassWildMons:
 	db 75, TYRANITAR
 	db 75, DRAGONITE
 	db 70, CHARIZARD
-	db 80, MEW
+	db 80, CROBAT
 	; nite
 	db 70, SCIZOR
 	db 74, VAPOREON
@@ -1167,7 +1167,7 @@ JohtoGrassWildMons:
 	db 75, TYRANITAR
 	db 75, DRAGONITE
 	db 70, CHARIZARD
-	db 80, MEW
+	db 80, CROBAT
 	; nite
 	db 70, SCIZOR
 	db 74, VAPOREON
@@ -1461,11 +1461,11 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_37
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 17, KANGASKHAN
+	db 17, GIRAFARIG
 	db 16, KADABRA
-	db 17, KANGASKHAN
+	db 17, GIRAFARIG
 	db 17, HERACROSS
-	db 16, TAUROS
+	db 16, MILTANK
 	db 16, SCYTHER
 	db 17, KADABRA
 	; day
@@ -1497,7 +1497,7 @@ JohtoGrassWildMons:
 	db 19, SCYTHER
 	db 18, SCYTHER
 	; day
-	db 21, KANGASKHAN
+	db 21, MILTANK
 	db 22, MAGNEMITE
 	db 21, CHARMELEON
 	db 20, MAGNEMITE
@@ -1526,17 +1526,17 @@ JohtoGrassWildMons:
 	db 25, HERACROSS
 	; day
 	db 22, SNUBBULL
-	db 25, KANGASKHAN
+	db 25, STANTLER
 	db 22, SNUBBULL
 	db 24, ELECTABUZZ
-	db 23, KANGASKHAN
+	db 23, STANTLER
 	db 25, GROWLITHE
 	db 25, HERACROSS
 	; nite
-	db 25, KANGASKHAN
+	db 25, STANTLER
 	db 25, RHYHORN
 	db 25, SCYTHER
-	db 24, ONIX
+	db 24, KANGASKHAN
 	db 25, PUPITAR
 	db 25, GROWLITHE
 	db 25, SCYTHER
@@ -1615,7 +1615,7 @@ JohtoGrassWildMons:
 	db 29, URSARING
 	db 26, URSARING
 	db 27, FLAAFFY
-	db 30, MEW
+	db 30, SCIZOR
 	; nite
 	db 27, RHYHORN
 	db 28, FLAAFFY
@@ -1633,9 +1633,9 @@ JohtoGrassWildMons:
 	db 33, ONIX
 	db 33, PUPITAR
 	db 32, RHYHORN
-	db 35, AMPHAROS
+	db 34, AMPHAROS
 	db 32, DRAGONAIR
-	db 34, ZAPDOS
+	db 35, AERODACTYL
 	; day
 	db 34, DRATINI
 	db 33, EEVEE
