@@ -146,19 +146,19 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 34, ONIX
-	db 35, TYRANITAR
-	db 36, RHYHORN
+	db 33, LARVITAR
+	db 32, RHYHORN
 	db 33, ARCANINE
 	db 32, VAPOREON
-	db 36, AMPHAROS
-	db 35, DRAGONAIR
+	db 34, ELECTABUZZ
+	db 35, ZAPDOS
 	; day
 	db 34, ONIX
 	db 35, LARVITAR
 	db 36, RHYHORN
 	db 33, ARCANINE
 	db 32, VAPOREON
-	db 36, AMPHAROS
+	db 36, MAGNETON
 	db 35, DRAGONAIR
 	; nite
 	db 34, HAUNTER
@@ -166,7 +166,7 @@ KantoGrassWildMons:
 	db 36, HAUNTER
 	db 33, HOUNDOOM
 	db 32, FERALIGATR
-	db 36, AMPHAROS
+	db 36, MAGNETON
 	db 35, DRAGONAIR
 	end_grass_wildmons
 

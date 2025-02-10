@@ -272,7 +272,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const HO_OH      ; fa
 	const CELEBI     ; fb
 DEF NUM_POKEMON EQU const_value - 1
-	const_skip       ; fc
+	const_skip	 ; fc
 	const EGG        ; fd
 
 ; Unown forms

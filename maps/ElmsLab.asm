@@ -156,34 +156,34 @@ LabTryToLeaveScript:
 	applymovement PLAYER, ElmsLab_CantLeaveMovement
 	end
 
-MareepPokeBallScript:
+ChikoritaPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic MAREEP
-	cry MAREEP
+	pokepic CHIKORITA
+	cry CHIKORITA
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeMareepText
+	writetext TakeChikoritaText
 	yesorno
 	iffalse DidntChooseStarterScript
 	disappear ELMSLAB_POKE_BALL1
-	setevent EVENT_GOT_MAREEP_FROM_ELM
+	setevent EVENT_GOT_CHIKORITA_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, MAREEP
+	getmonname STRING_BUFFER_3, CHIKORITA
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke MAREEP, 5, BERRY
+	givepoke CHIKORITA, 5, BERRY
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript
-	applymovement PLAYER, AfterMareepMovement
+	applymovement PLAYER, AfterChikoritaMovement
 	sjump ElmDirectionsScript
 
 TotodilePokeBallScript:
@@ -214,32 +214,32 @@ TotodilePokeBallScript:
 	applymovement PLAYER, AfterTotodileMovement
 	sjump ElmDirectionsScript
 
-CharmanderPokeBallScript:
+CyndaquilPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic CHARMANDER
-	cry CHARMANDER
+	pokepic CYNDAQUIL
+	cry CYNDAQUIL
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeCharmanderText
+	writetext TakeCyndaquilText
 	yesorno
 	iffalse DidntChooseStarterScript
 	disappear ELMSLAB_POKE_BALL3
-	setevent EVENT_GOT_CHARMANDER_FROM_ELM
+	setevent EVENT_GOT_CYNDAQUIL_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, CHARMANDER
+	getmonname STRING_BUFFER_3, CYNDAQUIL
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke CHARMANDER, 5, BERRY
+	givepoke CYNDAQUIL, 5, BERRY
 	closetext
-	applymovement PLAYER, AfterCharmanderMovement
+	applymovement PLAYER, AfterCyndaquilMovement
 	sjump ElmDirectionsScript
 
 DidntChooseStarterScript:
@@ -702,7 +702,7 @@ ElmsLab_ElmToDefaultPositionMovement2:
 	turn_head DOWN
 	step_end
 
-AfterMareepMovement:
+AfterChikoritaMovement:
 	step LEFT
 	step UP
 	turn_head UP
@@ -715,7 +715,7 @@ AfterTotodileMovement:
 	turn_head UP
 	step_end
 
-AfterCharmanderMovement:
+AfterCyndaquilMovement:
 	step LEFT
 	step LEFT
 	step LEFT
@@ -856,10 +856,10 @@ LabWhereGoingText:
 	line "are you going?"
 	done
 
-TakeMareepText:
+TakeChikoritaText:
 	text "ELM: You'll take"
-	line "MAREEP, the"
-	cont "electric #MON?"
+	line "CHIKORITA, the"
+	cont "grass #MON?"
 	done
 
 TakeTotodileText:
@@ -868,9 +868,9 @@ TakeTotodileText:
 	cont "water #MON?"
 	done
 
-TakeCharmanderText:
+TakeCyndaquilText:
 	text "ELM: So, you like"
-	line "CHARMANDER, the"
+	line "CYNDAQUIL, the"
 	cont "fire #MON?"
 	done
 
@@ -1406,7 +1406,7 @@ ElmsLab_MapEvents:
 	def_object_events
 	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
 	object_event  2,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ElmsAideScript, EVENT_ELMS_AIDE_IN_LAB
-	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MareepPokeBallScript, EVENT_MAREEP_POKEBALL_IN_ELMS_LAB
+	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ChikoritaPokeBallScript, EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
 	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TotodilePokeBallScript, EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
-	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CharmanderPokeBallScript, EVENT_CHARMANDER_POKEBALL_IN_ELMS_LAB
+	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CyndaquilPokeBallScript, EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
 	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB

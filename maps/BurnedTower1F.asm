@@ -62,7 +62,7 @@ BurnedTowerRivalBattleScript:
 	closetext
 	checkevent EVENT_GOT_TOTODILE_FROM_ELM
 	iftrue .totodile
-	checkevent EVENT_GOT_CHARMANDER_FROM_ELM
+	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELM
 	iftrue .charmander
 	winlosstext BurnedTowerRival_WinText, BurnedTowerRival_LossText
 	setlasttalked BURNEDTOWER1F_RIVAL

@@ -1,9 +1,9 @@
 	db CROCONAW ; 159
 
-	db  65,  59,  80,  58,  80,  63
+	db  65,  80,  80,  58,  64,  63
 	;   hp  atk  def  spd  sat  sdf
 
-	db WATER, WATER ; type
+	db WATER, GROUND ; type
 	db 195 ; catch rate
 	db 143 ; base exp
 	db NO_ITEM, NO_ITEM ; items

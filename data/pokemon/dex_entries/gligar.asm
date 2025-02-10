@@ -6,5 +6,5 @@
 	next "When it is done"
 
 	page "gliding, it hops"
-	next "along the ground"
+	next "on the ground"
 	next "back to its nest.@"

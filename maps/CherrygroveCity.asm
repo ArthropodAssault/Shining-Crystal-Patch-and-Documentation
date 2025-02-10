@@ -115,7 +115,7 @@ CherrygroveRivalSceneNorth:
 	closetext
 	checkevent EVENT_GOT_TOTODILE_FROM_ELM
 	iftrue .Totodile
-	checkevent EVENT_GOT_CHARMANDER_FROM_ELM
+	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELM
 	iftrue .Chikorita
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL

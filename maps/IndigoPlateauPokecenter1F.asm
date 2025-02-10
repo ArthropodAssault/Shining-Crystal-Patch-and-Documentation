@@ -90,7 +90,7 @@ PlateauRivalBattleCommon:
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
 	checkevent EVENT_GOT_TOTODILE_FROM_ELM
 	iftrue .Totodile
-	checkevent EVENT_GOT_CHARMANDER_FROM_ELM
+	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELM
 	iftrue .Chikorita
 	; Cyndaquil
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText

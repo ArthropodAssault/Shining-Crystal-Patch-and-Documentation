@@ -6115,11 +6115,8 @@ LoadEnemyMon:
 	jr .UpdateDVs
 
 .GenerateDVs:
-; Generate new random DVs
-	call BattleRandom
-	ld b, a
-	call BattleRandom
-	ld c, a
+; Generate fixed DVs
+    ld bc, $ffff
 
 .UpdateDVs:
 ; Input DVs in register bc

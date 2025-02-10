@@ -5,11 +5,11 @@ JohtoGrassWildMons:
 	def_grass_wildmons SPROUT_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, RATTATA
-	db 4, SENTRET
-	db 5, SENTRET
-	db 3, RATTATA
-	db 6, RATTATA
+	db 4, EEVEE
+	db 4, EEVEE
+	db 5, EEVEE
+	db 3, EEVEE
+	db 6, EEVEE
 	db 5, CHARMANDER
 	db 5, CHARMANDER
 	; day
@@ -375,7 +375,7 @@ JohtoGrassWildMons:
 	db 24, NATU
 	db 20, SMEARGLE
 	db 22, SMEARGLE
-	db 22, SMEARGLE
+	db 25, CELEBI
 	; day
 	db 20, NATU
 	db 22, NATU
@@ -397,28 +397,28 @@ JohtoGrassWildMons:
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, SPINARAK
+	db 6, EXEGGCUTE
 	db 6, CHARMANDER
-	db 6, SPINARAK
+	db 6, EXEGGCUTE
 	db 6, CHARMANDER
 	db 5, HOUNDOUR
 	db 5, HOUNDOUR
-	db 5, DRATINI
+	db 5, EXEGGCUTE
 	; day
 	db 5, HOUNDOUR
-	db 5, SPINARAK
+	db 5, EXEGGCUTE
 	db 5, HOUNDOUR
-	db 5, SPINARAK
+	db 5, EXEGGCUTE
 	db 5, CHARMANDER
 	db 5, CHARMANDER
 	db 10,CHARMANDER
 	; nite
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	db 5, EEVEE
+	db 5, GASTLY
+	db 5, EEVEE
+	db 5, GASTLY
+	db 5, EEVEE
+	db 5, GASTLY
 	db 5, UNOWN
 	end_grass_wildmons
 
@@ -566,15 +566,15 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 12, TEDDIURSA
-	db 13, PHANPY
+	db 13, EXEGGCUTE
 	db 13, TEDDIURSA
 	db 11, PINECO
 	db 12, POLIWAG
 	db 14, HOUNDOUR
-	db 13, ODDISH
+	db 13, EXEGGCUTE
 	; day
 	db 12, TEDDIURSA
-	db 13, PHANPY
+	db 13, EXEGGCUTE
 	db 13, TEDDIURSA
 	db 11, PINECO
 	db 12, HOUNDOUR
@@ -599,7 +599,7 @@ JohtoGrassWildMons:
 	db 13, GOLBAT
 	db 14, GEODUDE
 	db 16, TEDDIURSA
-	db 16, TEDDIURSA
+	db 25, MACHOP
 	; day
 	db 14, MACHOP
 	db 13, ZUBAT
@@ -655,7 +655,7 @@ JohtoGrassWildMons:
 	db 30, QUAGSIRE
 	db 28, DRAGONAIR
 	db 30, GOLBAT
-	db 35, CROBAT
+	db 35, MOLTRES
 	; day
 	db 31, SANDSHREW
 	db 32, NIDORINA
@@ -727,7 +727,7 @@ JohtoGrassWildMons:
 	db 28, PILOSWINE
 	db 27, JYNX
 	db 28, JYNX
-	db 29, JYNX
+	db 29, ARTICUNO
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B1F
@@ -1237,21 +1237,21 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, SENTRET
+	db 3, EEVEE
 	db 3, MAREEP
 	db 4, GROWLITHE
-	db 4, SENTRET
+	db 4, EEVEE
 	db 2, MAREEP
-	db 3, SENTRET
-	db 3, SENTRET
+	db 3, EEVEE
+	db 3, EEVEE
 	; day
 	db 3, MAREEP
-	db 3, SENTRET
+	db 3, EEVEE
 	db 4, MAREEP
 	db 4, GROWLITHE
-	db 2, SENTRET
-	db 3, SENTRET
-	db 3, SENTRET
+	db 2, EEVEE
+	db 3, EEVEE
+	db 3, EEVEE
 	; nite
 	db 3, ZUBAT
 	db 3, HOUNDOUR
@@ -1265,13 +1265,13 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, SENTRET
+	db 3, EEVEE
 	db 3, CATERPIE
 	db 4, MAREEP
 	db 4, MAREEP
 	db 2, CATERPIE
-	db 3, SENTRET
-	db 3, SENTRET
+	db 3, EEVEE
+	db 3, EEVEE
 	; day
 	db 4, CATERPIE
 	db 3, MAREEP
@@ -1323,7 +1323,7 @@ JohtoGrassWildMons:
 	; morn
 	db 6, TEDDIURSA
 	db 5, WOOPER
-	db 7, SENTRET
+	db 7, EEVEE
 	db 6, TEDDIURSA
 	db 7, GROWLITHE
 	db 7, SENTRET
@@ -1350,12 +1350,12 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 8, PHANPY
-	db 7, SENTRET
+	db 7, EEVEE
 	db 7, PHANPY
 	db 8, DODUO
 	db 7, DODUO
-	db 8, HOPPIP
-	db 7, HOPPIP
+	db 8, EEVEE
+	db 7, EEVEE
 	; day
 	db 8, PHANPY
 	db 7, PHANPY
@@ -1377,7 +1377,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_34
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, SANDSHREW
+	db 15, EXEGGCUTE
 	db 16, PINECO
 	db 14, GROWLITHE
 	db 15, DITTO
@@ -1385,16 +1385,16 @@ JohtoGrassWildMons:
 	db 15, SCYTHER
 	db 15, PINECO
 	; day
-	db 15, SANDSHREW
-	db 15, GEODUDE
+	db 15, EXEGGCUTE
+	db 15, GROWLITHE
 	db 16, RHYHORN
 	db 15, DITTO
-	db 16, TOTODILE
-	db 15, SANDSHREW
-	db 15, SANDSHREW
+	db 16, ABRA
+	db 15, EXEGGCUTE
+	db 15, EXEGGCUTE
 	; nite
 	db 16, KADABRA
-	db 15, GEODUDE
+	db 15, EXEGGCUTE
 	db 16, KADABRA
 	db 15, ZUBAT
 	db 15, DROWZEE
@@ -1407,7 +1407,7 @@ JohtoGrassWildMons:
 	; morn
 	db 16, PHANPY
 	db 16, MAREEP
-	db 15, SCYTHER
+	db 15, EXEGGCUTE
 	db 16, TEDDIURSA
 	db 15, SANDSHREW
 	db 15, TOTODILE
@@ -1417,12 +1417,12 @@ JohtoGrassWildMons:
 	db 16, PINECO
 	db 15, PHANPY
 	db 16, PHANPY
-	db 15, SANDSHREW
+	db 15, EXEGGCUTE
 	db 15, CHARMANDER
 	db 12, CHARMANDER
 	; nite
 	db 16, ZUBAT
-	db 16, DROWZEE
+	db 16, EXEGGCUTE
 	db 15, DROWZEE
 	db 16, ZUBAT
 	db 15, NIDORAN_M
@@ -1435,23 +1435,23 @@ JohtoGrassWildMons:
 	; morn
 	db 5, GROWLITHE
 	db 4, MAREEP
-	db 5, LEDYBA
-	db 5, LEDYBA
+	db 5, EXEGGCUTE
+	db 5, EXEGGCUTE
 	db 6, GROWLITHE
-	db 5, PIDGEY
+	db 5, EXEGGCUTE
 	db 5, MAGNEMITE
 	; day
 	db 7, MAREEP
-	db 7, BELLSPROUT
+	db 7, EXEGGCUTE
 	db 6, GROWLITHE
 	db 6, MAREEP
-	db 6, BELLSPROUT
+	db 6, EXEGGCUTE
 	db 7, PIDGEY
 	db 6, MAGNEMITE
 	; nite
-	db 7, HOOTHOOT
+	db 7, EXEGGCUTE
 	db 6, HOUNDOUR
-	db 5, BELLSPROUT
+	db 5, EXEGGCUTE
 	db 6, HOOTHOOT
 	db 6, HOUNDOUR
 	db 5, GASTLY
@@ -1503,7 +1503,7 @@ JohtoGrassWildMons:
 	db 20, MAGNEMITE
 	db 18, KANGASKHAN
 	db 19, CHARMELEON
-	db 18, SNORLAX
+	db 25, RAIKOU
 	; nite
 	db 19, MISDREAVUS
 	db 19, GIRAFARIG
@@ -1559,7 +1559,7 @@ JohtoGrassWildMons:
 	db 28, CHARMELEON
 	db 26, CROCONAW
 	db 27, CROCONAW
-	db 26, SKARMORY
+	db 30, RAIKOU
 	; nite
 	db 29, GOLBAT
 	db 28, SKARMORY
@@ -1587,7 +1587,7 @@ JohtoGrassWildMons:
 	db 27, SKARMORY
 	db 25, KANGASKHAN
 	db 26, KANGASKHAN
-	db 35, AMPHAROS
+	db 30, ENTEI
 	; nite
 	db 28, DRATINI
 	db 29, TEDDIURSA
@@ -1607,7 +1607,7 @@ JohtoGrassWildMons:
 	db 29, DRATINI
 	db 26, URSARING
 	db 27, FLAAFFY
-	db 30, DRAGONAIR
+	db 30, MEW
 	; day
 	db 27, FLAAFFY
 	db 28, DRATINI

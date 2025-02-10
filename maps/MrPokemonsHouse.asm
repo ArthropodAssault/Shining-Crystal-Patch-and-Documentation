@@ -130,17 +130,17 @@ MrPokemonsHouse_OakScript:
 	clearevent EVENT_COP_IN_ELMS_LAB
 	checkevent EVENT_GOT_TOTODILE_FROM_ELM
 	iftrue .RivalTakesChikorita
-	checkevent EVENT_GOT_CHARMANDER_FROM_ELM
+	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELM
 	iftrue .RivalTakesCyndaquil
 	setevent EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
 	end
 
 .RivalTakesChikorita:
-	setevent EVENT_CHARMANDER_POKEBALL_IN_ELMS_LAB
+	setevent EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
 	end
 
 .RivalTakesCyndaquil:
-	setevent EVENT_MAREEP_POKEBALL_IN_ELMS_LAB
+	setevent EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
 	end
 
 MrPokemonsHouse_ForeignMagazines:

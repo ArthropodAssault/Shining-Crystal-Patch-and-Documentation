@@ -16,7 +16,7 @@ DEF PHYSICAL EQU const_value
 	const BIRD
 	const BUG
 	const STEEL
-	const DRAGON
+	const GHOST
 
 DEF UNUSED_TYPES EQU const_value
 	const_next 19
@@ -31,7 +31,7 @@ DEF SPECIAL EQU const_value
 	const PSYCHIC_TYPE
 	const ICE
 	const DARK
-	const GHOST	
+	const DRAGON	
 
 DEF TYPES_END EQU const_value
 
